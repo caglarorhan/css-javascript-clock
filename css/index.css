@@ -44,6 +44,8 @@ body {
     top:50%;
     transform-origin: 100% ;
     transform: rotate(90deg);
+    transition:all 0.05s;
+    transition-timing-function: cubic-bezier(0, 1.3, 0.41, 1.09);
 }
 .hour-hand {
     width: 15rem;
@@ -62,7 +64,7 @@ body {
 .second-hand {
     width: 15rem;
     height: 1px;
-    background:blue;
+    background:red;
     position:absolute;
     top:50%;
 }
